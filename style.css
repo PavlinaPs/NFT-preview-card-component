@@ -38,6 +38,7 @@ body {
     height: 100vh;
     margin-right: auto;
     margin-left: auto;
+
     font-family: var(--ff-sans);
     font-size: var(--fs-normal);
     font-weight: var(--fw-normal);
@@ -134,10 +135,11 @@ p {
 }
 
 .ETH-number {
+    vertical-align: middle;
     font-size: 15px;
     font-weight: var(--fw-normal);
     color: var(--color-cyan);
-    vertical-align: middle;
+    
 }
 
 .time-left {
@@ -170,7 +172,6 @@ p {
     font-size: var(--fs-small);
     font-weight: var(--fw-thin);
     color: var(--color-blue);
-    
 }
 
 .creation {
