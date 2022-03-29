@@ -64,6 +64,7 @@ main {
 }
 
 .main-img {
+    align-self: center;
     flex-shrink: 0;
     width: 278px;
     height: 278px;
@@ -182,8 +183,6 @@ p {
     color: var(--color-cyan);
 }
 
-
-
 /* footer */
 footer {
     position: fixed;
@@ -201,11 +200,49 @@ footer a {
 @media (min-width: 640px) {
     body {
         max-width: 1440px;
-
     }
 
     main {
-
         width: 350px;
+        height: 600px;
+        border-radius: 15px;
+        padding: 24px;
+    }
+
+    .main-img {
+        width: 304px;
+        height: 304px;
+    }
+  
+    .main-img--cover {
+        width: 304px;
+        height: 304px;
+    }
+    
+    .main-img--cover img {
+        width: 50px;
+    }
+
+    p {
+        font-size: var(--fs-normal);
+        line-height: 1.5;
+    }
+
+    .info {
+        margin-top: 7px;
+    }
+
+    .ETH-number {
+        font-size: 15px;
+        font-weight: var(--fw-bold);
+        letter-spacing: 1px;
+    }
+
+    .line {
+        margin-top: 8px;
+    }
+
+    .creator {
+        gap: 18px;
     }
 }
